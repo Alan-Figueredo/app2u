@@ -7,11 +7,11 @@ import Footer from './components/Footer/Footer'
 import Projects from './components/Projects/Projects'
 import Services from './components/Services/Services'
 import Team from './components/Team/Team'
-import CarouselContainer from './components/CarouselContainer';
 import { Container } from 'react-bootstrap';
 import NavBar from "./components/Navbar/NavBar"
 import { useEffect } from 'react';
 import ToTop from './components/ToTop/ToTop';
+import CarouselContainer from './components/Carousel/CarouselContainer';
 
 function App() {
   useEffect(() => {
@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <CarouselContainer />
+      <CarouselContainer/>
       <Container>
         <Services />
         <Projects />

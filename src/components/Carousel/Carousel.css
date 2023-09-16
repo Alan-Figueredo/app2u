@@ -1,0 +1,12 @@
+
+.imgCarousel{
+    height: 35rem;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .imgCarousel{
+        height: 20rem;
+    }
+}
