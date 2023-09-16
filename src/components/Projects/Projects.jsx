@@ -11,12 +11,12 @@ const Projects = () => {
             <h3 className="text-center" style={{ color: "#6689ff" }}>Sanidapp</h3>
             <Row className=" my-3 d-flex justify-content-around">
                 <Image src={MuestreoApp} className="img-fluid col-lg-4 col-10" />
-                <Image src={MuestreoApp} className="img-fluid col-lg-4 col-10" />
+                <Image src={MuestreoApp} className="img-fluid my-lg-0 my-3 col-lg-4 col-10" />
                 <Image src={MuestreoApp} className="img-fluid col-lg-4 col-10" />
             </Row>
             <Row className="my-3 d-flex justify-content-around">
                 <Image src={MuestreoApp} className="img-fluid col-lg-4 col-10" />
-                <Image src={MuestreoApp} className="img-fluid col-lg-4 col-10" />
+                <Image src={MuestreoApp} className="img-fluid my-lg-0 my-3 col-lg-4 col-10" />
                 <Image src={MuestreoApp} className="img-fluid col-lg-4 col-10" />
             </Row>
             {

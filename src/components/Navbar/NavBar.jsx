@@ -40,9 +40,8 @@ const NavBar = () => {
     return (
       <div className="bg-white py-sm-1 py-2" id="DivNav" ref={DivNav}>
         <Navbar>
-          <button className="hamburger col-1" id="hamburger" title='menú hamburguesa' onClick={handleClick}>
-          </button>
-          <img src="" alt='LOGO APP2U' style={{ height: "auto", width: "31%" }} />
+          <button className="hamburger col-1" id="hamburger" title='menú hamburguesa' onClick={handleClick}></button>
+          <img src={Logo} alt='LOGO APP2U' style={{ height: "auto", width: "21%" }} />
         </Navbar>
       </div>
     )

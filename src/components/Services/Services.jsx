@@ -15,12 +15,12 @@ const Services = () => {
                 </Col>
                 <Col lg={5} sm={12}>
                     <Row className="my-2 gap-lg-3 justify-content-end">
-                        <Card data-aos="fade-left" data-aos-duration="800" className="col-lg-5 col-10 shadow-sm" >
+                        <Card data-aos="fade-left" data-aos-duration="800" className="col-lg-5 col-11 shadow-sm" >
                             <h2 className="cardH2 col-12 text-center mt-5">¿Que ofrecemos?</h2>
                             <hr className="col-4 m-auto my-4" />
                             <Button className="mb-4 mx-2 ">Nuestros servicios</Button>
                         </Card>
-                        <Card data-aos="fade-left" data-aos-duration="800" className="col-lg-5 col-10 shadow-sm" >
+                        <Card data-aos="fade-left" data-aos-duration="800" className="col-lg-5 my-lg-0 my-3 col-11 shadow-sm" >
                             <div className="align-self-center mt-4">
                                 <MdDeveloperMode className="iconService" />
                             </div>
@@ -30,7 +30,7 @@ const Services = () => {
                         </Card>
                     </Row>
                     <Row className="my-2 gap-lg-3 justify-content-end">
-                        <Card data-aos="fade-left" data-aos-duration="1000" className="col-lg-5 col-10 shadow-sm">
+                        <Card data-aos="fade-left" data-aos-duration="1000" className="col-lg-5 col-11 shadow-sm">
                             <div className="align-self-center mt-4">
                                 <PiHeadsetFill className="iconService" />
                             </div>
@@ -38,7 +38,7 @@ const Services = () => {
                             <hr className="col-4 m-auto my-3" />
                             <p className="cardP">Nuestros expertos proporcionan productos personalizados para Callcenters.</p>
                         </Card>
-                        <Card data-aos="fade-left" data-aos-duration="1000" className="col-lg-5 col-10 shadow-sm">
+                        <Card data-aos="fade-left" data-aos-duration="1000" className="col-lg-5 my-lg-0 my-3 col-11 shadow-sm">
                             <div className="align-self-center mt-4">
                                 <AiOutlineCloudUpload className="iconService" />
                             </div>

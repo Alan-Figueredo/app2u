@@ -35,7 +35,7 @@ const ToTop = () => {
     };
 
     return (
-        <div data-aos="fade-down" data-aos-duration="3000" className={`button ${!isVisible && "hidden"}`} onClick={scrollToTop}>
+        <div data-aos="fade-down" data-aos-duration="3000" className={`button shadow-sm ${!isVisible && "hidden"}`} onClick={scrollToTop}>
             <BiUpArrowAlt style={{fontSize:"25px"}} />
         </div>
     );

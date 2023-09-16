@@ -31,14 +31,14 @@ const Contact = () => {
             </Row>
             <Form className="px-3">
                 <Row className="gap-2 my-2">
-                    <input className="col-lg-4 col-12 inputForm" type="text" placeholder="Tu nombre" />
-                    <input className="col-lg-4 col-12 inputForm" type="email" placeholder="E-mail" />
-                    <input className="col-lg-4 col-12 inputForm" type="phone" placeholder="Numero telefonico" />
+                    <input className="col-lg inputForm" type="text" placeholder="Tu nombre" />
+                    <input className="col-lg  inputForm" type="email" placeholder="E-mail" />
+                    <input className="col-lg  inputForm" type="phone" placeholder="Numero telefonico" />
                 </Row>
                 <Row>
                     <textarea className="inputForm" rows={7} placeholder="Mensaje" />
                 </Row>
-                <Button className="mt-4">Enviar mensaje</Button>
+                <Button className="mt-4 col-lg-2 col-12">Enviar mensaje</Button>
             </Form>
         </Col>
     )
