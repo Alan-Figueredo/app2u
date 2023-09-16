@@ -1,0 +1,17 @@
+#footer{
+    background-color: #1b1929;
+}
+#footer p{
+    color: #9b9b9b;
+}
+
+.iconSocialMedia{
+    color: #9b9b9b;
+    margin: 0px 5px;
+}
+.iconSocialMedia:hover{
+    transition: 300ms;
+    transform: scale(1.1);
+    color: #6689ff;
+    cursor: pointer;
+}

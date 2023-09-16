@@ -1,0 +1,37 @@
+#DivNav {
+    z-index: 5;
+    position: sticky;
+    width: 100%;
+    transition: 1s all ease;
+}
+
+.nav-ul {
+    justify-content: end;
+    padding-right: 2%;
+}
+
+.nav-ul a {
+    padding: 10px
+}
+
+.cerrar-Nav {
+    top: 0 !important;
+}
+
+.abrir-Nav {
+    top: -110px !important;
+}
+
+.nav-link::before {
+    position: relative;
+    content: '';
+    bottom: -8px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: #6689ff;
+    opacity: 0;
+    visibility: visible;
+    transform: translateY(5px);
+    transition: all .2s ease;
+}

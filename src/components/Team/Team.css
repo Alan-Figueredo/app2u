@@ -1,0 +1,43 @@
+.imgTeam {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: all .3s ease;
+}
+
+.teamCaption {
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    bottom: 75px;
+    width: 80%;
+    min-width: 300px;
+    margin-left: 0px;
+    padding: 15px 20px -1px 50px;
+    transition: all .3s ease;
+    z-index: 2;
+    color: white;
+    transform-origin: 50% 5%;
+}
+
+.teamCaption::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.5);
+    transform: skew(10deg);
+    transform-origin: 50% 100%;
+    z-index: -1;
+
+}
+
+.imgTeam:hover {
+    filter: grayscale(0%);
+    transform: scale(1.02);
+}
+
+.imgTeam:hover+.teamCaption {
+    padding: 0px 20px;
+}

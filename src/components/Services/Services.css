@@ -1,0 +1,32 @@
+
+
+.cardH3{
+    font-size: 18px;
+    line-height: 1.71429;
+}
+.cardH2{
+    font-size: 30px;
+}
+
+.cardP{
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 3%;
+    background-color: #6689ff;
+    border-color: #6689ff;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #151515;
+    border-color: #151515;
+}
+.iconService{
+    height: 40px;
+    width: auto;
+    justify-content: center;
+}
+
