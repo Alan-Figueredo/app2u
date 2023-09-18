@@ -25,3 +25,15 @@
     transition: 300ms all ease;
     transform: scale(1.05);
 }
+
+.horizontalLine{
+    color: black;
+    width: 15%;
+    transition: 300ms all ease;
+    opacity: 100%;
+}
+
+#contacto .card:hover .horizontalLine{
+    transform: scale(1.8);
+    color: #6689ff;
+}
