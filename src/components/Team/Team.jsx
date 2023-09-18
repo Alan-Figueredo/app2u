@@ -9,7 +9,7 @@ const Team = () => {
                 {equipo.map((mate, index) => {
                     return (
                         <Col style={{height:"350px"}} key={index} lg={3} className="col-12">
-                            <Image className="imgTeam" src={mate.img ? `./src/assets/${mate.img}` : ""}  />
+                            <Image className="imgTeam" src={mate.img ? mate.img : ""}  />
                             <div className="teamCaption">
                                 <p style={{marginBottom:"5px"}}>{mate.name}</p>
                                 <p style={{marginBottom:"5px"}}>{mate.position}</p>
