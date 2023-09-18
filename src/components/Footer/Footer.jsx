@@ -10,7 +10,7 @@ const Footer = () => {
                 <Col lg={4} className="text-lg-start text-center ps-lg-4 ps-0 col-12">
                     <p>©APP2U 2023</p>
                 </Col>
-                <Col lg={4} className="justify-content-center d-flex col-12">
+                <Col lg={4} className="justify-content-center d-flex pb-lg-0 pb-3 col-12">
                     <BsLinkedin className="iconSocialMedia" />
                     <BsInstagram className="iconSocialMedia" />
                 </Col>
