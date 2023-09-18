@@ -2,12 +2,12 @@
     {
         "name":"Alan Figueredo",
         "position":"Desarrollador Frontend",
-        "img":"./public/Alan.jpeg"
+        "img":"/public/Alan.jpeg"
     },
     {
         "name":"Reyes Rubio Elena",
         "position":"Desarrollador web",
-        "img":"./public/reyes.jpeg"
+        "img":"public/reyes.jpeg"
     },
     {
         "name":"jim edson cortés torres",
@@ -17,7 +17,7 @@
     {
         "name":"Pamela Salgado Zanassi",
         "position":"Project manager",
-        "img":"./public/pam.jpeg"
+        "img":"pam.jpeg"
     },
     {
         "name":"Maria José Escriba",
