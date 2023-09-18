@@ -2,36 +2,36 @@
     {
         "name":"Alan Figueredo",
         "position":"Desarrollador Frontend",
-        "img":"public/Alan.jpeg"
+        "img":"./public/Alan.jpeg"
     },
     {
         "name":"Reyes Rubio Elena",
         "position":"Desarrollador web",
-        "img":"public/reyes.jpeg"
+        "img":"./public/reyes.jpeg"
     },
     {
         "name":"jim edson cortés torres",
         "position":"Desarrollador Backend",
-        "img":"public/jim.jpeg"
+        "img":"./public/jim.jpeg"
     },
     {
         "name":"Pamela Salgado Zanassi",
         "position":"Project manager",
-        "img":"public/pam.jpeg"
+        "img":"./public/pam.jpeg"
     },
     {
         "name":"Maria José Escriba",
         "position":"Diseñadora",
-        "img":"public/mj.jpeg"
+        "img":"./public/mj.jpeg"
     },
     {
         "name":"Maria Del Mar",
         "position":"RRHH",
-        "img":"public/Alan.jpg"
+        "img":"./public/Alan.jpg"
     },
     {
         "name":"Renzo Miguel Perez Beteta",
         "position":"Diseñador",
-        "img":"/public/renzo.jpeg"
+        "img":"./public/renzo.jpeg"
     }
 ]
