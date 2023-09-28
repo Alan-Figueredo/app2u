@@ -14,8 +14,6 @@ const Team = () => {
                                 <p style={{ marginBottom: "5px" }}>{mate.name}</p>
                                 <p style={{ marginBottom: "5px" }}>{mate.position}</p>
                             </div>
-                            {/* <p>{mate.name}</p>
-                            <p>{mate.position}</p> */}
                         </Col>
                     )
                 })}
