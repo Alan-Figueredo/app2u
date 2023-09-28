@@ -2,13 +2,13 @@ import React, { useRef, useState } from 'react';
 import { Navbar } from "react-bootstrap"
 import "./NavBar.css"
 import Logo from "../../assets/logo2.png"
+import HamburgerArrowIcon from '../HamburgerArrowIcon/HamburgerArrowIcon';
+import { useSidebarContext } from '../../context/SidebarContext';
 const NavBar = () => {
   const [ubicacionPrincipal, setUbicacionPrincipal] = useState(window.scrollY);
   const [desplazamiento_Actual, setDesplazamiento_Actual] = useState(0);
-  const [AbrirCerrar, setAbrirCerrar] = useState(false);
   const DivNav = useRef();
   const [activeTab, setActiveTab] = useState(1);
-
   const handleTabClick = (tabNumber) => {
     setActiveTab(tabNumber);
   };
@@ -31,16 +31,12 @@ const NavBar = () => {
     DivNav.current?.classList.add("abrir-Nav")
   }
 
-  function handleClick() {
-    setAbrirCerrar(!AbrirCerrar)
-    handleCross()
-  }
 
   if (window.innerWidth <= 1010) {
     return (
-      <div className="bg-white py-sm-1 py-2" id="DivNav" ref={DivNav}>
-        <Navbar>
-          <button className="hamburger col-1" id="hamburger" title='menú hamburguesa' onClick={handleClick}></button>
+      <div className="bg-white py-sm-1 py-2 shadow-sm" id="DivNav" ref={DivNav}>
+        <Navbar className='d-flex justify-content-left gap-2 ms-2'>
+          <HamburgerArrowIcon  />
           <img src={Logo} alt='LOGO APP2U' style={{ height: "auto", width: "21%" }} />
         </Navbar>
       </div>
@@ -50,7 +46,7 @@ const NavBar = () => {
       <div className="bg-white shadow-sm" id="DivNav" ref={DivNav}>
         <Navbar className="d-flex flex-row w-100">
           <img src={Logo} alt='LOGO APP2U' style={{ height: "2.5rem", width: "8%" }} className="ms-4 " />
-          <ul className={`nav nav-ul col ${AbrirCerrar}`} id="ListaNav">
+          <ul className={`nav nav-ul col `} id="ListaNav">
             <a href='#' onClick={() => handleTabClick(1)} className={tab1ClassName}>Home</a>
             <a href='#projects' onClick={() => handleTabClick(2)} className={tab2ClassName}>Proyectos</a>
             <a href='#equipo' onClick={() => handleTabClick(3)} className={tab3ClassName}>Equipo</a>

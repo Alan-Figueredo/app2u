@@ -12,6 +12,8 @@ import NavBar from "./components/Navbar/NavBar"
 import { useEffect } from 'react';
 import ToTop from './components/ToTop/ToTop';
 import CarouselContainer from './components/Carousel/CarouselContainer';
+import SideNavBar from './components/SideNavBar/SideNavBar';
+import { SidebarContextProvider } from './context/SidebarContext';
 
 function App() {
   useEffect(() => {
@@ -22,16 +24,19 @@ function App() {
 
   return (
     <>
-      <NavBar />
-      <CarouselContainer/>
-      <Container>
-        <Services />
-        <Projects />
-        <Team />
-        <Contact />
-        <ToTop />
-      </Container>
-      <Footer />
+      <SidebarContextProvider>
+        <NavBar />
+        <SideNavBar />
+        <CarouselContainer />
+        <Container>
+          <Services />
+          <Projects />
+          <Team />
+          <Contact />
+          <ToTop />
+        </Container>
+        <Footer />
+      </SidebarContextProvider>
     </>
   )
 }

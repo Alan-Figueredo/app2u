@@ -1,0 +1,19 @@
+.offcanvas-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0%;
+}
+.offcanvas-body a{
+    color: black;
+    padding: 1rem;
+}
+.offcanvas-body .active{
+    background-color: #6689ff;
+    color: white;
+}
+.offcanvas.offcanvas-start {
+    width: 250px;
+}

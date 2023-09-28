@@ -12,7 +12,7 @@ const CarouselContainer = () => {
     };
 
     return (
-        <Carousel activeIndex={index} controls={false} onSelect={handleSelect} className='mb-5 w-100' >
+        <Carousel id='carousel' activeIndex={index} controls={false} onSelect={handleSelect} className='mb-5 w-100' >
             <Carousel.Item interval={3000}>
                 <Image className='imgCarousel' src={imagenCarrusel1} />
                 <Carousel.Caption>

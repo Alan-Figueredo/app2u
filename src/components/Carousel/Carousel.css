@@ -1,12 +1,18 @@
-
-.imgCarousel{
+.imgCarousel {
     height: 35rem;
     width: 100%;
 }
 
 
 @media screen and (max-width: 800px) {
-    .imgCarousel{
-        height: 20rem;
+    .imgCarousel {
+        height: 16rem;
+    }
+
+    #carousel h3 {
+        font-size: 20px;
+    }
+    #carousel p{
+        font-size: 15px;
     }
 }
