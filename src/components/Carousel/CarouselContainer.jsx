@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Button, Image } from 'react-bootstrap';
 import imagenCarrusel1 from "../../assets/imagen1Carrusel.jpg"
+import imagenCarrusel2 from "../../assets/imagen2Carrusel.jpeg"
 import "./Carousel.css"
 
 const CarouselContainer = () => {
@@ -22,7 +23,7 @@ const CarouselContainer = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={3000}>
-                <Image className='imgCarousel' src={imagenCarrusel1} />
+                <Image className='imgCarousel' src={imagenCarrusel2} />
                 <Carousel.Caption>
                     <h3>Equipo experimentado</h3>
                     <p>Somos un equipo de desarrolladores de software calificados, destinados a crear herramientas únicas y poderosas para su negocio y la vida cotidiana.</p>

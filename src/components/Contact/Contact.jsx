@@ -30,7 +30,7 @@ const Contact = () => {
             </Row>
             <Row className="align-items-center d-flex justify-content-center">
                 <h3 className="col-lg-2 col-12 ps-3">Contactanos</h3>
-                <p className="col m-auto pb-1">Si tienes alguna consulta, llena el formulario y te contestaremos a la brevedad.</p>
+                <p className="col m-auto ps-3 pb-1">Si tienes alguna consulta, llena el formulario y te contestaremos a la brevedad.</p>
             </Row>
             <Form className="px-3">
                 <Row className="gap-2 my-2">
