@@ -4,7 +4,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useSidebarContext } from '../../context/SidebarContext';
 import "./SideNavBar.css"
 function SideNavBar() {
-    const { show, handleClose } = useSidebarContext();
+    const { show, handleClose, handleClick } = useSidebarContext();
     const [activeTab, setActiveTab] = useState("Home");
     const tabs2 = [{ name: "Home", link: "" }, { name: "Proyectos", link: "projects" }, { name: "Equipo", link: "equipo" }, { name: "Contacto", link: "contacto" }]
     const handleTabClick = (tabName) => {
@@ -16,7 +16,7 @@ function SideNavBar() {
                 <Offcanvas.Body>
                     {tabs2.map((tab) => {
                         return (
-                            <a href={`#${tab.link}`} onClick={() => { handleTabClick(tab.name); handleClose() }} className={activeTab === tab.name ? 'active' : ''}>
+                            <a href={`#${tab.link}`} onClick={() => { handleTabClick(tab.name); handleClose(); handleClick() }} className={activeTab === tab.name ? 'active' : ''}>
                                 {tab.name}
                             </a>
                         )
