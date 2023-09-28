@@ -1,5 +1,11 @@
 import { Card, Col, Row, Image } from "react-bootstrap";
-import MuestreoApp from "../../assets/muestreoApp.jpg"
+import screen1 from "../../assets/1.webp"
+import screen2 from "../../assets/2.webp"
+import screen3 from "../../assets/3.webp"
+import screen4 from "../../assets/4.webp"
+import screen5 from "../../assets/5.webp"
+import screen6 from "../../assets/6.webp"
+
 import "./Projects.css"
 const Projects = () => {
     return (
@@ -10,14 +16,14 @@ const Projects = () => {
             </div>
             <h3 className="text-center" style={{ color: "#6689ff" }}>Sanidapp</h3>
             <Row className=" my-3 d-flex justify-content-around">
-                <Image src={MuestreoApp} className="img-fluid col-lg-4 col-10" />
-                <Image src={MuestreoApp} className="img-fluid my-lg-0 my-3 col-lg-4 col-10" />
-                <Image src={MuestreoApp} className="img-fluid col-lg-4 col-10" />
+                <Image src={screen1} className="img-fluid col-lg-4 col-10" />
+                <Image src={screen2} className="img-fluid my-lg-0 my-3 col-lg-4 col-10" />
+                <Image src={screen3} className="img-fluid col-lg-4 col-10" />
             </Row>
             <Row className="my-3 d-flex justify-content-around">
-                <Image src={MuestreoApp} className="img-fluid col-lg-4 col-10" />
-                <Image src={MuestreoApp} className="img-fluid my-lg-0 my-3 col-lg-4 col-10" />
-                <Image src={MuestreoApp} className="img-fluid col-lg-4 col-10" />
+                <Image src={screen4} className="img-fluid col-lg-4 col-10" />
+                <Image src={screen5} className="img-fluid my-lg-0 my-3 col-lg-4 col-10" />
+                <Image src={screen6} className="img-fluid col-lg-4 col-10" />
             </Row>
             {
                 //Consultar si se necesita una barra como en la pagina, que despliegue los diferentes proyectos dependiendo de la especialidad

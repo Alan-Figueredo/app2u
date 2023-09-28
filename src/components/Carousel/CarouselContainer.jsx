@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Button, Image } from 'react-bootstrap';
-import imagenCarrusel1 from "../../assets/imagen1Carrusel.jpg"
-import imagenCarrusel2 from "../../assets/imagen2Carrusel.jpeg"
+import imagenCarrusel1 from "../../assets/imagen1Carrusel.webp"
+import imagenCarrusel2 from "../../assets/imagen2Carrusel.webp"
 import "./Carousel.css"
 
 const CarouselContainer = () => {
