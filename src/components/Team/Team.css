@@ -11,7 +11,7 @@
     left: 0;
     bottom: 75px;
     width: 80%;
-    min-width: 300px;
+    min-width: 200px;
     margin-left: 0px;
     padding: 15px 20px -1px 50px;
     transition: all .3s ease;
@@ -41,4 +41,6 @@
 
 .imgTeam:hover+.teamCaption {
     padding: 0px 20px;
+    transform: scale(1.04);
+    min-width: 250px;
 }

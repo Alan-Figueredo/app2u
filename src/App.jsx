@@ -18,7 +18,9 @@ import { SidebarContextProvider } from './context/SidebarContext';
 function App() {
   useEffect(() => {
     Aos.init({
-      once: true
+      once: true,
+      refresh:true,
+      offset:0
     });
   }, [])
 
